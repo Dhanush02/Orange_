@@ -1,0 +1,54 @@
+@media (max-width: 990px) {
+  .footer-flex{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-image {
+    height: 80px;
+    position: relative;
+    /* top: -5px; */
+    width: 130px;
+  }
+  .fa-bars {
+    position: relative;
+    top: -5px;
+  }
+  .title-section span {
+    font-size: 16px;
+  }
+  .bag .number{
+    top:460px;
+    right:140px;
+  }
+  .contact-media{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 426px) {
+  .banner-text {
+    font-size: 16px;
+    display: block;
+  }
+  .cartBox .cart {
+    height: 100%;
+    width: 100%;
+  }
+  .cart-heading{
+    display: none;
+  }
+  .table-data{
+    position: relative;
+    top:40px;
+  }
+  .home-image{
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+  .home-space{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  }
