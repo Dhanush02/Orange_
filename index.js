@@ -20,7 +20,7 @@ const generateMail = (
   note = ""
 ) => {
   const transporter = nodemailer.createTransport({
-    host: 'smtp.example.com',
+    host: 'smtp.gmail.com',
     port: 465,
     secure: true,
     auth: {
