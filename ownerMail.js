@@ -76,7 +76,7 @@ module.exports = (name, email, description, phone, project, items, random,paymen
 	<!--[if IE]><div class="ie-browser"><![endif]-->
 		
 
-<div class="container">
+<div class="container-fluid">
 
 <div class="row">
   <div class="col-md-4">

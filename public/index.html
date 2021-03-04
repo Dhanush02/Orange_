@@ -2189,7 +2189,7 @@
         <!-- <a href="mailto:dhanukarthick15@gmail.com?Subject=My%20Query">Contact us</a> -->
         <div class="container-fluid p-4">
           <div
-            class="d-flex contact-media align-items-center justify-content-center"
+            class="d-flex contact-media "
           >
             <div class="col-md-12 col-lg-6">
               <img
@@ -2252,7 +2252,6 @@
                         <option selected="selected"></option>
                         <option>Courier Delivery(Within Tamilnadu)</option>
                         <option>Courier Delivery(Other)</option>
-                        <option>Two pay Delivery</option>
                         <option>Office Delivery(Orange)</option>
                       </select>
                       <p></p>
@@ -2261,23 +2260,23 @@
                 </div>
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="form-group position-relative">
-                      <label>Account Number</label>
-                      <input
-                        type="text"
-                        name="account"
-                        id="account"
-                        class="form-control"
-                        placeholder="Enter your Account Number"
-                      />
-                      <i class="contact-sign"></i>
-                      <p>*Enter your Account Number</p>
+                    <div class="form-group">
+                      <label>Choose Account</label>
+                      <select class="form-control custom-select" id="account">
+                        <option selected="selected"></option>
+                        <option>0660360000004627</option>
+                        <option>0660351000006864</option>
+                      </select>
+                      <p></p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <label>Payment type</label>
-                      <select class="form-control custom-select" id="paymentType">
+                      <select
+                        class="form-control custom-select"
+                        id="paymentType"
+                      >
                         <option>Online Payment</option>
                         <option>Account Tranferring</option>
                         <option>Google pay</option>
@@ -2328,15 +2327,21 @@
                   </div>
                 </div>
                 <div class="text-left container p-0">
-                  <div id="myDiv"></div>
-                  <button
-                    class="btn mb-5 btn-warning float-right"
-                    type="submit"
-                    id="submit-button"
-                  >
-                    <i class="fas fa-share ml-2"></i>
-                    CONFIRM ORDER
-                  </button>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div id="myDiv"></div>
+                    </div>
+                    <div class="col-md-6">
+                      <button
+                        class="btn mb-5 btn-warning float-right"
+                        type="submit"
+                        id="submit-button"
+                      >
+                        <i class="fas fa-share ml-2"></i>
+                        CONFIRM ORDER
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>

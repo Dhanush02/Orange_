@@ -205,9 +205,6 @@ let totalAmount = () => {
     }else if (sum != 0 && this.value == "Courier Delivery(Other)"){
       total.textContent = sum + 60;
       balance.textContent = sum + 60;
-    } else if (sum != 0 && this.value == "Two pay Delivery"){
-      total.textContent = sum;
-      balance.textContent = sum;
     }
     else if (sum != 0 && this.value == "Office Delivery(Orange)") {
       total.textContent = sum;
@@ -222,14 +219,12 @@ const input_fields = {
   name: /^[a-zA-Z ]*$/,
   email: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/,
   phone: /^\d{10}$/,
-  account: /^\d{16}$/,
 };
 const validObject = {
   name: false,
   email: false,
   phone: false,
   description: false,
-  account: false,
   note: false,
 };
 
@@ -291,7 +286,6 @@ submitButton.addEventListener("click", (e) => {
     validObject["phone"] &&
     validObject["email"] &&
     validObject["description"] &&
-    validObject["account"] &&
     validObject["note"]
   ) {
     window.location.href = "./result.html";
