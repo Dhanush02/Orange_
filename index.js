@@ -24,8 +24,8 @@ const generateMail = (
     port: 465,
     secure: true,
     auth: {
-        user: process.env.user,
-        pass: process.env.pass
+        user: 'dhanushkrthk15@gmail.com',
+        pass: 'dhanush**02'
     },
     
   });
