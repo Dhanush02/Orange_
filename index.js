@@ -25,9 +25,11 @@ const generateMail = (
     secure: true,
     auth: {
         user: 'dhanushkrthk15@gmail.com',
-        pass: 'dhanush**02'
+        pass: 'orvibzwffkoflddb'
     },
-    
+    tls: {
+        rejectUnauthorized: false
+    }
   });
 
   const mailOptions = !description
