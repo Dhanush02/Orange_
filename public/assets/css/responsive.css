@@ -27,6 +27,9 @@
   }
 }
 @media (max-width: 426px) {
+  .grand-total{
+    visibility: hidden;
+  }
   .banner-text {
     font-size: 16px;
     display: block;
